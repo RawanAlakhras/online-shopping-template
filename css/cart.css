@@ -1,0 +1,153 @@
+.btn-btn {
+    color: #fff;
+    background-color: #3B4146; ;
+    border-color:  #3B4146;;
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.137);
+  }
+  
+  .btn-btn:hover {
+    transition: all .3s ease-in;
+    color:  #3B4146;
+    background-color: #fff;
+    border-color: var(--main-color);
+   
+  }
+  
+  .btn-btn:focus, .btn-btn.focus {
+    color: #fff;
+    background-color:  #3B4146;
+    border-color:var(--main-color) ;
+    box-shadow: 0 0 0 0.2rem var(--main-color);
+  }
+  
+  .btn-btn.disabled, .btn-btn:disabled {
+    color: #fff;
+    background-color: #3B4146;
+    border-color: var(--main-color);
+  }
+  
+  .btn-btn:not(:disabled):not(.disabled):active, .btn-btn:not(:disabled):not(.disabled).active,
+  .show > .btn-btn.dropdown-toggle {
+    color: #fff;
+    background-color:  #3B4146;
+    border-color:var(--main-color);
+  }
+  
+  .btn-btn:not(:disabled):not(.disabled):active:focus, .btn-btn:not(:disabled):not(.disabled).active:focus,
+  .show > .btn-btn.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem var(--main-color);
+  }
+
+.payment-info {
+    background: var(--main-color);
+    padding: 10px;
+    border-radius: 6px;
+    color: #fff;
+    font-weight: bold
+}
+
+.product-details {
+    padding: 10px
+}
+
+body {
+    background:  #3B4146;
+    font-family: 'Raleway', sans-serif;
+}
+
+.cart {
+    background: #fff;
+    margin-top: 6%;
+}
+
+.p-about {
+    font-size: 12px
+}
+
+.table-shadow {
+    -webkit-box-shadow: 5px 5px 15px -2px rgba(0, 0, 0, 0.42);
+    box-shadow: 5px 5px 15px -2px rgba(0, 0, 0, 0.42)
+}
+
+.type {
+    font-weight: 400;
+    font-size: 10px
+}
+
+label.radio {
+    cursor: pointer
+}
+
+label.radio input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    visibility: hidden;
+    pointer-events: none
+}
+
+label.radio span {
+    padding: 1px 12px;
+    border: 2px solid #ada9a9;
+    display: inline-block;
+    color:  #3B4146;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: 300
+}
+
+label.radio input:checked+span {
+    border-color: #fff;
+    background-color:  #3B4146;
+    color: #fff
+}
+
+.credit-inputs {
+    background: #3B4146;
+    color: #fff !important;
+    border-color: #3B4146;
+}
+
+.credit-inputs::placeholder {
+    color: #fff;
+    font-size: 13px
+}
+
+.credit-card-label {
+    font-size: 15px;
+    font-weight: 300
+}
+
+.form-control.credit-inputs:focus {
+    background: #3B4146;
+    border: #3B4146;
+}
+
+.line {
+    border-bottom: 1px solid #3B4146;
+}
+
+.information span {
+    font-size: 12px;
+    font-weight: 500
+}
+
+.information {
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+
+.items {
+    -webkit-box-shadow: 5px 5px 4px -1px rgba(0, 0, 0, 0.25);
+    box-shadow: 5px 5px 4px -1px rgba(0, 0, 0, 0.08)
+
+}
+
+.spec {
+    font-size: 11px
+}
+.con-shopping{
+    font-weight: bold;
+    color:var(--main-color)
+}
